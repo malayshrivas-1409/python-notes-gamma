@@ -332,6 +332,8 @@ for value in dic.values():
 for key , value in dic.items():
     print(key,value)
 '''
+#-------------------------------------NESTED LIST-----------------------------------------------
+'''
 d= {
     "student":{
         "age":21,
@@ -339,4 +341,12 @@ d= {
     }
 }
 
-print(d["student"]["name"])
+print(d["student"]["name"])'''
+
+#==================================================  SETS IN PYTHON    ===================================================================
+#creating a set 
+se={1,1,1,1,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,} #duplicates will be automatically removed set is ordered collection//set are mutable 
+print(type(se))
+print(se)
+se.add(10)
+print(se)
